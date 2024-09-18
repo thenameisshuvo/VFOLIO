@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vartical Portfolio</title>
+  <title>Vertical Portfolio</title>
+  
 
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -129,26 +130,31 @@
   <!-- Contact Area -->
   <section id="contact" class="h-screen flex justify-center items-center">
     <div class="w-3/4">
-      <div class="bg-bg-dark-color p-10 rounded-2xl border-zinc-700">
-        <img src="img/contact.svg" alt="" class="w-custom-image-width mb-5">
-        <h5 class="text-lg text-primary-color uppercase">LET'S CHAT</h5>
-        <h3 class="text-xl md:text-4xl text-white font-semibold mb-5">SEND A MESSAGE</h3>
-        <form action="" class="mt-4">
-          <div class="flex">
+      <div class="bg-bg-dark-color p-10 rounded-2xl border border-zinc-700">
+        <img src="img/contact.svg" alt="Contact Us" class="w-custom-image-width mb-5 mx-auto">
+        <h5 class="text-lg text-primary-color uppercase text-center tracking-widest mb-2">LET'S CHAT</h5>
+        <h3 class="text-3xl md:text-5xl text-white font-bold mb-8 text-center">
+          <h3 class="text-xl md:text-4xl text-white font-semibold mb-5">SEND A MESSAGE</h3>
+        </h3>
+        <form action="" class="space-y-5">
+          <div class="md:flex md:space-x-4">
             <input type="text" placeholder="Enter Your Name"
-              class="bg-bg-color border-zinc-700 rounded-lg px-3 py-2 w-[47%] md:w-[48%] mb-3 mr-2">
+              class="bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-primary-color mb-4 md:mb-0">
+  
             <input type="email" placeholder="Enter Your Email"
-              class="bg-bg-color border-zinc-700 rounded-lg px-3 py-2 w-[47%] md:w-[48%] mb-3 mr-2">
+            class="bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-primary-color mb-4 md:mb-0">
           </div>
-          <textarea name="" id="" placeholder="Your Message"
-            class="bg-bg-color border-zinc-700 rounded-lg px-3 py-2 w-[98%] md:w-[96%] h-[100px] mb-3 mr-2"></textarea>
+  
+          <textarea placeholder="Your Message"
+            class="bg-gray-700 text-white border border-gray-600 rounded-lg px-4 py-3 w-full focus:outline-none focus:ring-2 focus:ring-primary-color resize-none h-32"></textarea>
+  
           <input type="submit" value="Send Message"
-            class="bg-primary-color font-semibold inline-block px-10 py-3 hover:bg-indigo-500 hover:text-white transition-all">
+            class="bg-primary-color text-white font-semibold rounded-full px-6 py-3 w-full hover:bg-indigo-600 transition-all shadow-lg">
         </form>
       </div>
     </div>
   </section>
-
+  
 
   <script src="script.js"></script>
 </body>
