@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "vite" ,
+    "start": "vite",
     "build": "vite build"
   },
   "keywords": [],
@@ -12,8 +12,16 @@
   "description": "",
   "devDependencies": {
     "autoprefixer": "^10.4.19",
+    "eslint": "^9.10.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.12"
+  }
+}
+
+ {
+  "scripts": {
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
+    "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
   }
 }
